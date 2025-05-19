@@ -102,19 +102,12 @@ export default function Second() {
               </span>
             </p>
           </div>
-          {/* {toggleDropdown1 && (
-                        <div className="bg-white p-4 rounded-md border borer-gray-300 text-xs w-30">
-                            <p className="">Option 1</p>
-                            <p className="pt-2">Option 2</p>
-                            <p className="pt-2">Option 3</p>
-                        </div>
-                    )} */}
         </div>
 
         {/* first part */}
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cold-3 lg:grid-cols-4 pb-9">
           <div className="col-span-1 flex items-center bg-white p-4 rounded-md border border-gray-300">
-            <div className="p-2 bg-mainone rounded-lg">
+            <div className="p-2 bg-indigo-500 rounded-lg">
               <FiBarChart2 className="text-white" />
             </div>
             <div className="flex-grow text-end">
@@ -124,7 +117,7 @@ export default function Second() {
           </div>
 
           <div className="col-span-1 flex items-center bg-white p-4 rounded-md border border-gray-300">
-            <div className="p-2 bg-maintwo rounded-lg">
+            <div className="p-2 bg-pink-500 rounded-lg">
               <FiDollarSign className="text-white" />
             </div>
             <div className="flex-grow text-end">
@@ -134,7 +127,7 @@ export default function Second() {
           </div>
 
           <div className="col-span-1 flex items-center bg-white p-4 rounded-md border border-gray-300">
-            <div className="p-2 bg-mainthree rounded-lg">
+            <div className="p-2 bg-blue-500 rounded-lg">
               <FiBox className="text-white" />
             </div>
             <div className="flex-grow text-end">
@@ -144,7 +137,7 @@ export default function Second() {
           </div>
 
           <div className="col-span-1 flex items-center bg-white p-4 rounded-md border border-gray-300">
-            <div className="p-2 bg-mainfour rounded-lg">
+            <div className="p-2 bg-purple-500 rounded-lg">
               <FiPieChart className="text-white" />
             </div>
             <div className="flex-grow text-end">
